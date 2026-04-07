@@ -1,0 +1,17 @@
+media:
+  input: public/uploads
+  output: /uploads
+content:
+  - name: announcements
+    label: Announcements
+    type: collection
+    path: content/announcements
+    fields:
+      - name: title
+        type: string
+      - name: body
+        type: rich-text
+      - name: image
+        type: image
+      - name: date
+        type: date
